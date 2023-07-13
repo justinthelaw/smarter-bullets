@@ -1,19 +1,19 @@
 /* eslint-env node */
 {
-    "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-type-checked",
-        "plugin:prettier/recommended"
-    ],
-    "plugins": ["@typescript-eslint"],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": true,
-        "tsconfigRootDir": "__dirname"
-    },
-    "root": true,
-    "rules": {
-        "prettier/prettier": ["error", { "useTabs": false }]
-    }
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": true,
+    "tsconfigRootDir": "__dirname"
+  },
+  "root": true,
+  "rules": {
+    "prettier/prettier": ["error", { "tabWidth": 2, "useTabs": false }]
+  }
 }
