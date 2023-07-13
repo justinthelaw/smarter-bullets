@@ -14,6 +14,7 @@
   },
   "root": true,
   "rules": {
+    // TODO: I think these have to be here because VSCode is ignoring Prettier
     "prettier/prettier": ["error", { "tabWidth": 2, "useTabs": false }]
   }
 }
